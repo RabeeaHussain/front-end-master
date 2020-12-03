@@ -1,10 +1,9 @@
 .mainheading {
  width: 100%;
  height: 100px;
- color:red;
  padding: 30px;
  text-align: center;
- background-color:rgb(182, 149, 212);
+ font-size: 35px;
  font-style: italic;
  font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
 }
@@ -20,8 +19,7 @@
 .boxleftside  {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    height: 50%;
+    width: 100%;
     border-right-style: solid;
     border-left-style: solid;
     border-color: gray;
@@ -42,19 +40,113 @@
 .boxmiddleside{
     border-right-style: solid ;
     border-color: gray;
-    width: 900px;
-    height: 40%;
-}
-
-.boxmiddleheading{
-    font-size: large;
-    text-align: center;
-    background-color: red;
     width: 100%;
-    height: 50px;
-    
+    height: 40%;
+    padding: 6px;
 }
+ /*adorable cat heading*/ 
+ .boxmiddleheading{
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*image*/
  .adorablecat{
      padding: 6px;
+     width: 600px;
+     height: 400px;
 
  }
+ /*pragraphs of middle box*/
+ .pragrap{
+     font-size:20px;
+ }
+/*right box layout*/
+.boxrightside{
+    width: 100%;
+    padding: 6px;
+    border-right-style:solid;
+    border-color: gray;
+}
+ /*right box main heading*/
+ .boxrightheading{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;  
+    text-decoration-style: solid;
+    padding: 6px;
+ }
+ /* second main box*/
+ .secondbox{
+    display: flex;
+    width: 100%;
+    border-right-style:solid ;
+    border-color: gray ; 
+    border-left-style: solid;
+    flex-direction: row;
+
+}
+   
+/*girls box*/
+.boxside{
+    border-right-style: solid;
+    display: ;
+    border-color: gray;
+    width: 700%;
+    
+}
+/* girls heading*/
+.girlsheading{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+    text-decoration-style: solid;
+    
+}
+.colmunsec{
+        font-size:20;
+        border-right-style: solid;
+        border-color: gray;
+        width: 2px;
+}
+.gover{
+    background-color:  mediumseagreen;
+    width:1000px;   
+     height: 50px;
+     text-decoration-style: solid;
+     font-style: italic;
+     font-size: 30px;
+}
+.corr{
+    width:1000px;   
+    height: 50px;
+    text-decoration-style: solid;
+    font-style: italic;
+    font-size: 30px;
+    background-color:yellowgreen ;
+}
+.peo{
+    width:1000px;   
+    height: 50px;
+    text-decoration-style: solid;
+    font-style: italic;
+    font-size: 30px;
+    background-color:lightgreen;
+}
+.fash{
+    width:1000px;   
+    height: 50px;
+    text-decoration-style: solid;
+    font-style: italic;
+    font-size: 30px;
+    background-color: tomato;
+}
+.sp{
+    background-color: brown;
+    width:1000px;   
+    height: 50px;
+    text-decoration-style: solid;
+    font-style: italic;
+    font-size: 30px;
+}
