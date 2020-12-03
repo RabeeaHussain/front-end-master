@@ -1,0 +1,60 @@
+.mainheading {
+ width: 100%;
+ height: 100px;
+ color:red;
+ padding: 30px;
+ text-align: center;
+ background-color:rgb(182, 149, 212);
+ font-style: italic;
+ font-family: apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+  
+.mainbox{
+    display: flex;
+    width: 100%;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 4px;
+}
+.boxleftside  {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 50%;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: gray;
+
+}
+
+.boxleftheading{
+     text-align: center;
+     font-family:Arial, Helvetica, sans-serif;
+     font-size: large;
+}
+
+.pragraphs{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.boxmiddleside{
+    border-right-style: solid ;
+    border-color: gray;
+    width: 900px;
+    height: 40%;
+}
+
+.boxmiddleheading{
+    font-size: large;
+    text-align: center;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    
+}
+ .adorablecat{
+     padding: 6px;
+
+ }
