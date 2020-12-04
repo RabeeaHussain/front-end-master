@@ -90,10 +90,20 @@
    
 /*girls box*/
 .boxside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     border-right-style: solid;
-    display: ;
+    border-left-style: solid;
     border-color: gray;
-    width: 700%;
+    /* border-right-style: solid;
+    border-color: gray;
+    width: 100%;
+    display: inline-block;
+   /* height: 100%;
+    /*margin: 0;*/
+    /*vertical-align: middle;*/
+    
     
 }
 /* girls heading*/
