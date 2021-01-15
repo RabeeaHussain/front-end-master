@@ -1,0 +1,37 @@
+starting front end master
+today i revise about html and a litte bit of css in html he 
+was telling about the basic html and about naming tags and 
+same old shit.
+
+okay lets start with today's note on my frontend master course 
+FIRST HTML:
+in html he talked about the basic html that I already know like for example 
+
+ATTRIBUTES: 
+           if i want to change the colour of a body or any tags color i have to give it a name and a value example:
+                  <body bgcolor="black"></body>.the backgroung colour that i have given a body is consider a attribute and bgcolor is a "name" and "black" is a value of it's attribute.
+
+TAG:
+    tags are like building block of a html or a website like we write are coding in between tags like:
+        <body> tags we write everything inside of a body tag .
+        <h1> to <h6> they are like heading tags if you want a heading you write it between these tags. 
+IMAGES: 
+       he talked a little about images how to add images and about "src" and "alt" .So "scr" is like a adrress of an image like from where the browser will take the image from and "alt" is if that in some browser if image dosen't show up the viewer would know ,what the image is of and it is also user friendly.
+COMMENTS:                  
+        okay so comments are actually not coding or any thing .it's just to help you in future .so if you look at your cod after a month or so you would know what this cod is doing and what it is for .It's not just for you but for othes too so if they look at your cod  they can understand it better. and you write comments like:/*comment anything you want to write */
+CLASS ATTRIBUTE :
+                 this attributre is very helpfull to do css bcause when you write css in it's own file if it has a class you write it as .(period,dot) this shows that it is a class .If you want to do css on a h1 tag you do it like this .h1 then the value of the class and then curly braketlike this .h1 value{
+                 cod in between 
+                 }        
+
+ID ATTRIBUTE :
+              It is similar to class attribute but dangerous to use .DON'T USE IT .and if you are  using it don't use it alot it's bad it will mess up your coding .you write it like this
+#h1 then the id you have given the tag and then curly braces and the cod in between like this #h1 value{ bgcolor="gray"} this cod wll be applied to all h1 that have an id same as the one you have write that id value in.
+  
+  IMPORTANT: 
+           Don't even get me started with this one if you think "ids" are not messed up things then they are if you write important with any thing that will overpower every class and id .All i'm saying is that DON'T EVER USE IT THIS IS MESSED UP SHIT .And you write it as this:!important!.
+ 
+ META :
+      this is the most useless thing in html . I don't get why you have to write it but you have because it tells the browser that it is a document or what the language of the cod that you goning to write is . If you write html:5 qand hit tab the editor will write it for you visual studio cod is every amazing .if you forget the tag just write it and hit tab it will complete it for you for example: img and then hit tab it will complete it for you .  
+      
+      

@@ -18,11 +18,44 @@
              For me the main use of let is that I can change the value of let in another line and doesn't give you an error unlike const . it is a block statement .The difference between var and let is of scooping and of functioning . if you have a condition of "if" and you let inside  curly braces and give it a varaiable and value let will only function inside the curly braces not outside it.
              
          VAR:
-             if you write a five line code and consol.log it and on 6 line you give it a var.variable="vlaue" and when you run the code it will not give you error because javascript put all the vars at the top of the file /function and when it will reach the code the var will get it's value from there.
+             if you write a five line code and consol.log it and on 6 line you give it a var.variable="vlaue" and when you run the code it will not give you error because javascript put all the vars at the top of the file /function and when it will reach the code the var will get it's value from ther
              
         STRINGS:
                IT quit important to know about .It is called strings because it is a string of character like writing a line in js is known as string if it doesn't have a comma in between .You can write a string in between double qoutes(") , single qoute('),and a back tick(`) it really doesn't matter.if you put back tick it is called a template string.to join the string together use + and if want space just leave space .
                
         BOOLEANS;
                  booleans are true ans flase .It is use like  this is true then this and is flase and thats it to booleans it in pretty simple.
+                 
+         CONTROL FLOW:
+                      control flow are if condition like if this is true then do this and if it's flase then do this.
+                      
+                      
+        	TRIPLE EQUAL:
+        	              always use triple equal to make a number equal to something .If you use double equal and make a number a string then it will try to make it work but don't make a number a string and don't use double equal.
+       
+        NOT EQUAL TOO:
+                     if you want to say that this condition is not equal to this then you write it as !== this means that it is not equal to something.
+         
+         ASK ANOTHER QUESTION:
+                             for a question you use else and to ask another question you use else if.
+                             
+        LOOP:
+             it allows you to execute one thing multiple time.we you while in loops it is similar to if statement. when you assign a value it will keep repeating that thing untill it reaches the assigned value.
+             
+        FUNCTIONS:
+                 funtion are mostly verb because they do something .in a function you can ethier put string or you can put values their which represent  a string.
+                 
+       SCOPE:
+             if you give a function or a if statement or a while or for loop a variable it won't work ouside the scope and sometime scope starts and end on curly braces.don't put thing in global scope because it is the higher power of scope and we don't want to get it polluted.
+             
+      FOR LOOP:
+               in for loop you have to give variable condition and increment all inside the for and after you have given it all the stuff it needs to run and then inside the curly braces give it a statement that if the condition is true then perform this statement and if it is not then this. variable can be declared outside of the loop so they can run even if the loop ends.        
+               
+     parseFloat():
+                  it use to convert a string into a number but if only that string has numbers in it .If that string doesn't have numbers it will give NAN errror. this is mostly is not frequently used in javascript because it is a very smart language but in harder lanuage like java and c++.
+                  
+    SWITCH STATEMENTS:   
+                      switch statements are vary much like if statements but in switch you can just write a bunch of if statements catenated.              
+                            
+               
                                              
