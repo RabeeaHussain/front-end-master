@@ -24,20 +24,43 @@ class Calculator {
       this.operator=operator
       this.previousoperand=this.currentoperand
       this.currentoperand=''
-      console.log(operator)
+      
   }
-
-  Computed() {}
+    compute(){
+     let computation
+     const prev=parseFloat(this.previousoperand)
+     const curr=parseFloat(this.currentoperand)
+     if(isNaN(prev)|| isNaN(curr)) return
+     switch(this.operator){
+       case'+':
+       computation=prev+curr
+       break
+       case'-':
+       computation=prev-curr
+       break
+       case'&#215;':
+       computation=prev*curr
+       break
+       case'&#247;':
+       computation=prev/curr
+       break
+       default:
+         return
+     }
+      this.currentoperand=computation
+      this.operator=undefined
+      this.previousoperand=""
+     
+    }
 
   updateDisplay() {
       if(this.currentoperand==="")return
       if(this.previousoperand!==""){
-          this.compute()
+        
           
       }
     this.currentoperandTextElement.innerText = this.currentoperand;
     this.previousoperandTextElement.innerText=this.previousoperand
-console.log("updateDisplay")   
 }
 }
 
@@ -68,5 +91,11 @@ operator.forEach((button) => {
   });
 
 });
+const equal=document.querySelector('[data-equal]')
+equal.addEventListener("click",button=>{
+  calculator.compute()
+  calculator.updateDisplay()
+})
 const clear =document.querySelector('[data-clear]');
+
 const back=document.querySelector('[data-back]')
