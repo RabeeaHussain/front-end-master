@@ -30,7 +30,7 @@
 55 not like this 5*5=25
                
         BOOLEANS;
-                 booleans are true and flase .It is use like if this is true then this and if it is  flase then this and thats it to booleans it in pretty simple.but I still on't know how to write it.Which I will in near future .
+                 booleans are true and flase .It is use like if this is true then this and if it is  flase then this and thats it to booleans it in pretty simple. We can also do comparision like if this is greater or equals too this value then do this else do this .
                  
          CONTROL FLOW:
                       control flow are if condition like if this is true then do this and if it's flase then do this.
