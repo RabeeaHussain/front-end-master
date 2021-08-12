@@ -1,6 +1,6 @@
 
       JAVASCRIPT:
-      I want to you write js notes as soon as he talked about that stuff so i don't miss anything because js is every important so it's good that I'm writting it as soon as possible.
+      I want to write js notes as soon as he talked about that stuff so i don't miss anything because js is every important so it's good that I'm writting it as soon as possible.
       
        CONST:
              this is the first thing he talked about so we give a "const" a variable and a value and you can't change the value of that variable in a new code const doesn't allow that ,"let" allows that but we goning to talk about it later
@@ -9,29 +9,29 @@
                                okay don't write js varablie in lowercase it will just confuse you in future and don't ever write variable with space between them thats just not the way of writting variable in js ,but you can write it in camelcase like the: "monthlyRent".
                                
         SEMI COLON:
-                  In js semi colon are important after every statement even if you don't put semicolon at the end of a statement it will till run your code because it has a ASI which stands for (Automatic Semicolon Insertion) .
+                  In js semi colon are important after every statement even if you don't put semicolon at the end of a statement it will still run your code because it has a ASI which stands for (Automatic Semicolon Insertion) .
                   
         LINK JAVASCRIPT TO HTML:
-                                It's very easy to do that actually you just have to write  script tag or create  script tag in html's head .Then write the "scr" .Src means from which directory or from where file is in.
+                                It's very easy to do that actually you just have to write  script tag or create  script tag in html's head .Then write the "scr" .Scr means from which directory or from where file is in.
                      
          LET:
-             For me the main use of let is that I can change the value of let in another line and doesn't give you an error unlike const . it is a block statement .The difference between var and let is of scooping and of functioning . if you have a condition of "if" and you let inside  curly braces and give it a varaiable and value let will only function inside the curly braces not outside it.
+             For me the main use of let is that I can change the value of let in another line and it doesn't give you an error unlike const . it is a block statement .The difference between var and let is of scooping and of functioning . if you have a condition of "if" and you let inside  curly braces and give it a varaiable and value let will only function inside the curly braces not outside it.
              
          VAR:
-             if you write a five line code and consol.log it and on 6 line you give it a var.variable="vlaue" and when you run the code it will not give you error because javascript put all the vars at the top of the file /function and when it will reach the code the var will get it's value from ther
+             if you write a five line code and consol.log it and on 6 line you give it a var.variable="vlaue" and when you run the code it will not give you error because javascript put all the vars at the top of the file /function and when it will reach the code the var will get it's value from there.
              
         STRINGS:
                IT quit important to know about .It is called strings because it is a string of character like writing a line in js is known as string if it doesn't have a comma in between .You can write a string in between double qoutes(") , single qoute('),and a back tick(`) it really doesn't matter.if you put back tick it is called a template string.to join the string together use + and if want space just leave space .
                
         BOOLEANS;
-                 booleans are true ans flase .It is use like  this is true then this and is flase and thats it to booleans it in pretty simple.
+                 booleans are true and flase .It is use like if this is true then this and if it is  flase then this and thats it to booleans it in pretty simple.but I still on't know how to write it.Which I will in near future .
                  
          CONTROL FLOW:
                       control flow are if condition like if this is true then do this and if it's flase then do this.
                       
-                      
+                     
         	TRIPLE EQUAL:
-        	              always use triple equal to make a number equal to something .If you use double equal and make a number a string then it will try to make it work but don't make a number a string and don't use double equal.
+        	              always use triple equal to make a number equal to something .If you use double equal and make a number a string then it will try to make it work but don't make a number a string so don't use double equal.
        
         NOT EQUAL TOO:
                      if you want to say that this condition is not equal to this then you write it as !== this means that it is not equal to something.
