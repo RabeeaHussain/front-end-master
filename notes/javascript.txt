@@ -1,7 +1,6 @@
 
       JAVASCRIPT:
-      I want to write js notes as soon as he talked about that stuff so i don't miss anything because js is every important so it's good that I'm writting it as soon as possible.
-      
+      I want to write js notes as soon as he talked about that stuff so i don't miss anything because js is every important so it's good that I'm writting it as soon as possible.JavaScript is a single threaed language so that means it can't do multiple things at a time like other languages can.Things happens in order in java Script so it's easier for us to understand .
        CONST:
              this is the first thing he talked about so we give a "const" a variable and a value and you can't change the value of that variable in a new code const doesn't allow that ,"let" allows that but we goning to talk about it later
         
@@ -22,6 +21,13 @@
              
         STRINGS:
                IT quit important to know about .It is called strings because it is a string of character like writing a line in js is known as string if it doesn't have a comma in between .You can write a string in between double qoutes(") , single qoute('),and a back tick(`) it really doesn't matter.if you put back tick it is called a template string.to join the string together use + and if want space just leave space .
+       
+       TEMPLATE STRINGS:
+                        they are brand new way of writing string because in the old we have to use a lot of + sings but not in template strings.The string in which we use back ticks are called template strings and we use dollar sign in it. in this type of string we an only use back tick.
+               
+       NUMBERS:
+               number and strings are very different but i known myself that I will mix them up if I don't write their difference that is a variable that's value that doesn't have qoutes are numbers but the one that has them are strings .If we try making a string with a number it won't do the multiplication it will just add the number just like 
+55 not like this 5*5=25
                
         BOOLEANS;
                  booleans are true and flase .It is use like if this is true then this and if it is  flase then this and thats it to booleans it in pretty simple.but I still on't know how to write it.Which I will in near future .
